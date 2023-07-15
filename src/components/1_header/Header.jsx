@@ -1,8 +1,9 @@
 import React from "react";
 import "./header.css";
 import Util from "./Util";
-import my_image from "..//../assets/images/my_image.jpeg";
+import my_image from "..//../assets/images/my_image.png";
 import SocialLinks from "./SocialLinks";
+import { MdKeyboardDoubleArrowDown } from "react-icons/md";
 
 const Header = () => {
   return (
@@ -15,10 +16,13 @@ const Header = () => {
         <div className="my-image">
           <img src={my_image} alt="me" />
         </div>
-        <a href="#contact" className="scroll-down">
-          Scroll Down
-        </a>
-        <SocialLinks />
+        <div className="scroll-feature">
+          <a href="#contact" className="scroll-down">
+            <MdKeyboardDoubleArrowDown />
+          </a>
+          <div className="label">Scroll down</div>
+        </div>
+        {/* <SocialLinks /> */}
       </div>
     </header>
   );
