@@ -1,5 +1,6 @@
 #header {
   margin-top: 0;
+  padding-top: 0;
 }
 header {
   height: 100vh;
@@ -28,10 +29,6 @@ header {
   left: calc(50% - 11rem);
   margin-top: 4rem;
   border-radius: 12rem 12rem 0 0;
-}
-
-.my-image img {
-  scale: 2;
 }
 .scroll-feature {
   position: absolute;
