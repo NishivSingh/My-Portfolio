@@ -9,7 +9,7 @@ function SkillCard({ class_name, title, skills }) {
       <h3>{title}</h3>
       <div className="experience_content">
         {skills.map((skill, index) => (
-          <article className="experience_details">
+          <article key={index} className="experience_details">
             <h4>{skill}</h4>
           </article>
         ))}
