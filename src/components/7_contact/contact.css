@@ -1,3 +1,6 @@
+#contact {
+  min-height: 90vh;
+}
 .contact_container {
   width: 58%;
   display: grid;
@@ -58,6 +61,9 @@ textarea {
   border: 2px solid var(--color-primary-variant);
   resize: none;
   color: var(--color-white);
+}
+.contact_btn {
+  font-weight: 500;
 }
 
 /* Media Queries for medium screen*/
