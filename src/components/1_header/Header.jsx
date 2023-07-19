@@ -7,26 +7,24 @@ import { MdKeyboardDoubleArrowDown } from "react-icons/md";
 
 const Header = () => {
   return (
-    <section id="header">
-      <header>
-        <div className="container header_container">
-          <h5>Hello I'm</h5>
-          <h1>Nishiv Singh</h1>
-          <h5 className="text-light">FrontEnd Developer</h5>
-          <Util />
-          <div className="my-image">
-            <img src={my_image} alt="me" />
-          </div>
-          <div className="scroll-feature">
-            <a href="#contact" className="scroll-down">
-              <MdKeyboardDoubleArrowDown />
-            </a>
-            <div className="label">Scroll down</div>
-          </div>
-          {/* <SocialLinks /> */}
+    <header id="header">
+      <div className="container header_container">
+        <h5>Hello I'm</h5>
+        <h1>Nishiv Singh</h1>
+        <h5 className="text-light">FrontEnd Developer</h5>
+        <Util />
+        <div className="my-image">
+          <img src={my_image} alt="me" />
         </div>
-      </header>
-    </section>
+        <div className="scroll-feature">
+          <a href="#contact" className="scroll-down">
+            <MdKeyboardDoubleArrowDown />
+          </a>
+          <div className="label">Scroll down</div>
+        </div>
+        {/* <SocialLinks /> */}
+      </div>
+    </header>
   );
 };
 
