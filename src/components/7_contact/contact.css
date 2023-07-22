@@ -4,8 +4,8 @@
 .contact_container {
   width: 58%;
   display: grid;
-  grid-template-columns: 30% 58%;
-  gap: 12%;
+  grid-template-columns: 37% 58%;
+  gap: 5%;
 }
 
 .contact_options {
@@ -22,7 +22,30 @@
   border: 1px solid transparent;
   transition: var(--transition);
 }
+.contact_option_heading {
+  display: flex;
+  gap: 0.5rem;
+  /* align-items: center; */
+  justify-content: center;
+}
+.direct_options {
+  display: flex;
+  gap: 1.2rem;
+  align-items: center;
+  /* flex-grow: 1; */
+}
+.direct_options {
+  display: flex;
+  gap: 1.2rem;
+  align-items: center;
+  /* flex-grow: 1; */
+}
 
+.upper_option {
+  /* background-color: red; */
+  flex-grow: 1;
+  width: 50%;
+}
 .contact_email {
   display: flex;
   flex-direction: column;
@@ -37,11 +60,21 @@
   font-size: 1.5rem;
   margin-bottom: 0.5rem;
 }
-
 .contact_option a {
   margin-top: 0.7rem;
+  font-size: 0.9rem;
   display: inline-block;
   /* font-size: 0.8rem; */
+}
+.connect_option_links {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.connect_option_social_links {
+  font-size: 1.5rem;
 }
 
 /* =================== FORM ==================*/
