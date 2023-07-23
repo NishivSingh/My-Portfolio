@@ -41,7 +41,7 @@ footer a {
 }
 .footer_copyright {
   margin-bottom: 0;
-  padding-bottom: 7rem;
+  /* padding-bottom: 7rem; */
   color: var(--color-bg);
 }
 
