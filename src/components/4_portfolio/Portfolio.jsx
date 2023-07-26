@@ -1,6 +1,11 @@
 import React from "react";
 import "./portfolio.css";
-import portfolio from "..//..//assets/images/portfolio.png";
+import restaurant from "..//..//assets/images/portfolio/restaurant.png";
+import chat_app from "..//..//assets/images/portfolio/chat-app.png";
+import sorting_vis from "..//..//assets/images/portfolio/sorting-visualizer.png";
+import movie_info from "..//..//assets/images/portfolio/movie-Info.png";
+import multicalc from "..//..//assets/images/portfolio/multicalculator.png";
+import tic_tac_toe from "..//..//assets/images/portfolio/tic-tac-toe.png";
 
 function ProjectCard({ img, gitlink, weblink, title }) {
   return (
@@ -10,10 +15,10 @@ function ProjectCard({ img, gitlink, weblink, title }) {
       </div>
       <h3>{title}</h3>
       <div className="portfolio_item_content">
-        <a href={gitlink} className="btn">
+        <a href={gitlink} target="_blank" className="btn">
           Github
         </a>
-        <a href={weblink} className="btn btn-primary">
+        <a href={weblink} target="_blank" className="btn btn-primary">
           Website link
         </a>
       </div>
@@ -28,39 +33,39 @@ const Portfolio = () => {
 
       <div className="container portfolio_container">
         <ProjectCard
-          img={portfolio}
-          title={"This is portfolio item"}
-          gitlink={"http://github.com"}
+          img={restaurant}
+          title={"Restaurant Website"}
+          gitlink={"https://github.com/NishivSingh/restaurant-website"}
           weblink={"http://github.com"}
         />
         <ProjectCard
-          img={portfolio}
-          title={"This is portfolio item"}
-          gitlink={"http://github.com"}
+          img={chat_app}
+          title={"Chit-Chat"}
+          gitlink={"https://github.com/NishivSingh/chat-app"}
           weblink={"http://github.com"}
         />
         <ProjectCard
-          img={portfolio}
-          title={"This is portfolio item"}
-          gitlink={"http://github.com"}
+          img={sorting_vis}
+          title={"Sorting Visualizer"}
+          gitlink={"https://github.com/NishivSingh/Sorting-Visualizer"}
           weblink={"http://github.com"}
         />
         <ProjectCard
-          img={portfolio}
-          title={"This is portfolio item"}
-          gitlink={"http://github.com"}
+          img={movie_info}
+          title={"Movies Info Website"}
+          gitlink={"https://github.com/NishivSingh/Movie-Info-App"}
           weblink={"http://github.com"}
         />
         <ProjectCard
-          img={portfolio}
-          title={"This is portfolio item"}
-          gitlink={"http://github.com"}
+          img={multicalc}
+          title={"Multi-Calculator"}
+          gitlink={"https://github.com/NishivSingh/Multi-Calculator"}
           weblink={"http://github.com"}
         />
         <ProjectCard
-          img={portfolio}
-          title={"This is portfolio item"}
-          gitlink={"http://github.com"}
+          img={tic_tac_toe}
+          title={"Tic-Tac-Toe game"}
+          gitlink={"https://github.com/NishivSingh/Tic-Tac-Toe-Game"}
           weblink={"http://github.com"}
         />
       </div>

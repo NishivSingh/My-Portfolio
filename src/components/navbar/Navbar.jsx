@@ -9,13 +9,13 @@ import { SiGooglemessages } from "react-icons/si";
 import { useState } from "react";
 
 const Navbar = () => {
-  const [activeNav, setActiveNav] = useState("#header");
+  const [activeNav, setActiveNav] = useState("#home");
   return (
     <nav className="navbar">
       <a
-        href="#header"
-        onClick={() => setActiveNav("#header")}
-        className={activeNav === "#header" ? "active" : ""}
+        href="#home"
+        onClick={() => setActiveNav("#home")}
+        className={activeNav === "#home" ? "active" : ""}
       >
         <AiFillHome />
       </a>

@@ -11,25 +11,11 @@
 }
 
 :root {
-  /* --color-bg: #1f1f38;
+  --color-bg: #1f1f38;
   --color-bg-variant: #2c2c6c;
   --color-primary: #4db5ff;
   --color-primary-variant: rgba(77, 181, 255, 0.4);
   --color-white: #fff;
-  --color-light: rgba(255, 255, 255, 0.6); */
-  --color-central: #ffd700; /* Central color (gold) */
-  --color-bg: #2c2c2c; /* Darker background color derived from central gold */
-  --color-bg-variant: #3c3c3c; /* Variant of the background color for the navbar, also derived from central gold */
-  --color-primary: var(
-    --color-central
-  ); /* Primary color for icons, using the central gold color */
-  --color-primary-variant: rgba(
-    255,
-    215,
-    0,
-    0.4
-  ); /* Variant of the primary color on hover, derived from central gold */
-  --color-white: #ffffff; /* White text color */
   --color-light: rgba(255, 255, 255, 0.6);
   --transition: all 400ms ease;
 

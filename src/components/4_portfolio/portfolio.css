@@ -23,13 +23,15 @@
 }
 
 .portfolio_item h3 {
-  margin: 1.2rem 0 2rem;
+  text-align: center;
+  margin: 1rem;
 }
 
 .portfolio_item_content {
   display: flex;
   gap: 1rem;
   margin-bottom: 1rem;
+  justify-content: center;
 }
 
 /* Media Queries for medium screen*/

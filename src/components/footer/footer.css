@@ -31,13 +31,13 @@ footer a {
   padding: 0.8rem;
   border-radius: 0.7rem;
   display: flex;
-  border: 1px solid transparent;
+  border: 2px solid transparent;
 }
 
 .footer_socials a:hover {
   background: transparent;
   color: var(--color-bg);
-  border-color: var(--color-primary);
+  border-color: var(--color-bg);
 }
 .footer_copyright {
   margin-bottom: 0;
