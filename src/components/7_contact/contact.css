@@ -2,6 +2,7 @@
   min-height: 90vh;
 }
 .contact_container {
+  padding-top: 1.2rem;
   width: 58%;
   display: grid;
   grid-template-columns: 37% 58%;
