@@ -26,24 +26,32 @@ const Experience = () => {
 
       <div className="container experience_container">
         <SkillCard
-          class_name={"programming"}
-          title={"Programming"}
-          skills={["C++", "Python", "Javascript"]}
-        />
-        <SkillCard
           class_name={"web_dev"}
           title={"Web Development"}
-          skills={["HTML", "CSS", "Javascript", "React"]}
+          skills={[
+            "HTML",
+            "CSS",
+            "Tailwind CSS",
+            "Javascript",
+            "Typescript",
+            "React JS",
+            "Next JS",
+          ]}
         />
         <SkillCard
           class_name={"app_dev"}
-          title={"App Development"}
+          title={"Mobile App Development"}
           skills={["Flutter", "Firebase"]}
+        />
+        <SkillCard
+          class_name={"ml"}
+          title={"Machine Learning"}
+          skills={["Python", "Streamlit", "Pandas", "Numpy", "Scikit-learn"]}
         />
         <SkillCard
           class_name={"others"}
           title={"Others"}
-          skills={["Git", "ML", "Matlab"]}
+          skills={["C++", "Matlab", "Git/Github", "Linux"]}
         />
       </div>
     </section>
