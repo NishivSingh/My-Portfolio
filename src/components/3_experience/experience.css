@@ -1,6 +1,6 @@
 .experience_container {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: 4fr 3fr;
   gap: 2rem;
 }
 
@@ -24,13 +24,37 @@
 }
 .experience_content {
   display: grid;
-  grid-template-columns: 1fr 1fr;
   row-gap: 2rem;
 }
 
+.frontend_dev :nth-child(2){
+  grid-template-columns: repeat(3,1fr);
+}
+.app_dev :nth-child(2){
+  grid-template-columns: repeat(2,1fr);
+}
+.others :nth-child(2){
+  grid-template-columns: repeat(3,1fr);
+}
 .experience_details {
   display: flex;
-  gap: 1rem;
+  flex-direction: column;
+  gap: 0.5rem;
+  align-items: center;
+  justify-content: center;
+  transition: var(--transition);
+}
+.experience_details:hover{
+  scale: 1.2;
+}
+.images{
+  width: 70px;
+  height: 70px;
+}
+.nextjs{
+  width: 90px;
+  height: 55px;
+  filter: invert(100%);
 }
 
 /* Media Queries for medium screen*/
