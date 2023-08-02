@@ -1,6 +1,12 @@
 .experience_container {
   display: grid;
-  grid-template-columns: 4fr 3fr;
+  grid-template-columns: 1fr;
+  gap: 2rem;
+}
+
+.non_web_dev {
+  display: grid;
+  grid-template-columns: 2fr 3fr;
   gap: 2rem;
 }
 
@@ -22,20 +28,24 @@
   color: var(--color-primary);
   margin-bottom: 2rem;
 }
+
 .experience_content {
   display: grid;
   row-gap: 2rem;
 }
 
-.frontend_dev :nth-child(2){
-  grid-template-columns: repeat(3,1fr);
+.frontend_dev :nth-child(2) {
+  grid-template-columns: repeat(4, 1fr);
 }
-.app_dev :nth-child(2){
-  grid-template-columns: repeat(2,1fr);
+
+.app_dev :nth-child(2) {
+  grid-template-columns: repeat(2, 1fr);
 }
-.others :nth-child(2){
-  grid-template-columns: repeat(3,1fr);
+
+.others :nth-child(2) {
+  grid-template-columns: repeat(3, 1fr);
 }
+
 .experience_details {
   display: flex;
   flex-direction: column;
@@ -44,14 +54,17 @@
   justify-content: center;
   transition: var(--transition);
 }
-.experience_details:hover{
+
+.experience_details:hover {
   scale: 1.2;
 }
-.images{
+
+.images {
   width: 70px;
   height: 70px;
 }
-.nextjs{
+
+.nextjs {
   width: 90px;
   height: 55px;
   filter: invert(100%);
@@ -62,6 +75,7 @@
   .experience_container {
     grid-template-columns: 1fr;
   }
+
   .skill_card {
     width: 80%;
     padding: auto;

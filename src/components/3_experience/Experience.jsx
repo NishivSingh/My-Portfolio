@@ -45,6 +45,7 @@ const Experience = () => {
             "Next Js": ["https://cdn.worldvectorlogo.com/logos/nextjs-2.svg","nextjs"],
           }}
         />
+        <div className="non_web_dev">
         <SkillCard
           class_name={"app_dev"}
           title={"Mobile App Development"}
@@ -66,6 +67,7 @@ const Experience = () => {
             "Matlab": ["https://img.icons8.com/fluency/240/matlab.png","matlab"],
           }}
         />
+        </div>
       </div>
     </section>
   );
