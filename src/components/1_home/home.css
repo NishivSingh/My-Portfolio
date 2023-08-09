@@ -10,6 +10,7 @@
   grid-template-columns: 45% 55%;
   align-items: center;
 }
+
 .home_content {
   max-width: 35rem;
 }
@@ -67,22 +68,27 @@
 }
 
 @keyframes professionRotate {
+
   0%,
   20% {
     transform: rotate(0deg);
   }
+
   25%,
   45% {
     transform: rotate(-90deg);
   }
+
   50%,
   70% {
     transform: rotate(-180deg);
   }
+
   75%,
   95% {
     transform: rotate(-270deg);
   }
+
   100% {
     transform: rotate(-360deg);
   }
@@ -100,7 +106,8 @@
   background: var(--color-bg);
   padding: 13px 0;
 }
-.profession:nth-child(1) > .profession_icon {
+
+.profession:nth-child(1)>.profession_icon {
   margin-right: 15px;
 }
 
@@ -108,14 +115,17 @@
 .profession:nth-child(4) {
   padding-bottom: 20px;
 }
+
 .profession_icon {
   font-size: 3rem;
 }
+
 .profession h3 {
   font-size: 2rem;
   line-height: 1;
   font-weight: 600;
 }
+
 .circle {
   width: 73vh;
   height: 73vh;
@@ -142,6 +152,7 @@
   width: 74%;
   pointer-events: none;
 }
+
 /* @media screen and (max-width: 1024px) {
   #header {
     height: 100vh;

@@ -14,14 +14,6 @@ function ProjectCard({ img, gitlink, weblink, title }) {
         <img src={img} alt="" />
       </div>
       <h3>{title}</h3>
-      <div className="portfolio_item_content">
-        <a href={gitlink} target="_blank" className="btn">
-          Github
-        </a>
-        <a href={weblink} target="_blank" className="btn btn-primary">
-          Website link
-        </a>
-      </div>
     </article>
   );
 }
