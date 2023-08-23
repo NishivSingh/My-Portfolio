@@ -4,6 +4,12 @@
   gap: 2rem;
 }
 
+.web_dev {
+  display: grid;
+  grid-template-columns: 3fr 2fr;
+  gap: 2rem;
+}
+
 .non_web_dev {
   display: grid;
   grid-template-columns: 2fr 3fr;
@@ -35,7 +41,7 @@
 }
 
 .frontend_dev :nth-child(2) {
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(3, 1fr);
 }
 
 .app_dev :nth-child(2) {

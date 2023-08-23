@@ -26,25 +26,37 @@ const Experience = () => {
       <h2>My Experience</h2>
 
       <div className="container experience_container">
-        <SkillCard
-          class_name={"frontend_dev"}
-          title={"Frontend Development"}
-          skills={{
-            "HTML": [
-              "https://img.icons8.com/color/240/html-5--v1.png",
-              "html-5",
-            ],
-            "CSS": ["https://img.icons8.com/color/240/css3.png", "css3"],
-            "Tailwind CSS": [
-              "https://img.icons8.com/color/240/tailwind_css.png",
-              "tailwind_css",
-            ],
-            "Javascript": ["https://img.icons8.com/color/240/javascript--v1.png", "javascript"],
-            "Typescript": ["https://img.icons8.com/color/240/typescript.png", "typescript"],
-            "React Js": ["https://img.icons8.com/plasticine/200/react.png", "react"],
-            "Next Js": ["https://cdn.worldvectorlogo.com/logos/nextjs-2.svg", "nextjs"],
-          }}
-        />
+        <div className="web_dev">
+          <SkillCard
+            class_name={"frontend_dev"}
+            title={"Frontend Development"}
+            skills={{
+              "HTML": [
+                "https://img.icons8.com/color/240/html-5--v1.png",
+                "html-5",
+              ],
+              "CSS": ["https://img.icons8.com/color/240/css3.png", "css3"],
+              "Tailwind CSS": [
+                "https://img.icons8.com/color/240/tailwind_css.png",
+                "tailwind_css",
+              ],
+              "Javascript": ["https://img.icons8.com/color/240/javascript--v1.png", "javascript"],
+              "Typescript": ["https://img.icons8.com/color/240/typescript.png", "typescript"],
+              "React Js": ["https://img.icons8.com/plasticine/200/react.png", "react"],
+              "Next Js": ["https://cdn.worldvectorlogo.com/logos/nextjs-2.svg", "nextjs"],
+            }}
+          />
+          <SkillCard
+            class_name={"backend_dev"}
+            title={"Backend Development"}
+            skills={{
+              "Dart": ["https://img.icons8.com/color/240/dart.png", "dart"],
+              "Flutter": ["https://img.icons8.com/color/240/flutter.png", "flutter"],
+              "Firebase": ["https://img.icons8.com/color/240/firebase.png", "firebase"],
+            }}
+          />
+
+        </div>
         <div className="non_web_dev">
           <SkillCard
             class_name={"app_dev"}
