@@ -1,11 +1,11 @@
 import React from "react";
 import "./portfolio.css";
-import restaurant from "..//..//assets/images/portfolio/restaurant.png";
+import shop_sphere from "..//..//assets/images/portfolio/shop_sphere.png";
 import ai_image_generator from "..//../assets/images/portfolio/ai-image-generator.png";
 import chat_app from "..//..//assets/images/portfolio/chat-app.png";
 import sorting_vis from "..//..//assets/images/portfolio/sorting-visualizer.png";
 import movie_info from "..//..//assets/images/portfolio/movie-Info.png";
-import multicalc from "..//..//assets/images/portfolio/multicalculator.png";
+import youtube_bookmarker from "..//..//assets/images/portfolio/youtube-bookmarker.png";
 
 function ProjectCard({ img, gitlink, weblink, title }) {
   return (
@@ -25,8 +25,8 @@ const Portfolio = () => {
 
       <div className="container portfolio_container">
         <ProjectCard
-          img={restaurant}
-          title={"Restaurant Website"}
+          img={shop_sphere}
+          title={"ShopSphere"}
           gitlink={"https://github.com/NishivSingh/restaurant-website"}
           weblink={"http://github.com"}
         />
@@ -43,6 +43,12 @@ const Portfolio = () => {
           weblink={"http://github.com"}
         />
         <ProjectCard
+          img={youtube_bookmarker}
+          title={"Youtube Bookmarker"}
+          gitlink={"https://github.com/NishivSingh/Multi-Calculator"}
+          weblink={"http://github.com"}
+        />
+        <ProjectCard
           img={sorting_vis}
           title={"Sorting Visualizer"}
           gitlink={"https://github.com/NishivSingh/Sorting-Visualizer"}
@@ -54,12 +60,7 @@ const Portfolio = () => {
           gitlink={"https://github.com/NishivSingh/Movie-Info-App"}
           weblink={"http://github.com"}
         />
-        <ProjectCard
-          img={multicalc}
-          title={"Multi-Calculator"}
-          gitlink={"https://github.com/NishivSingh/Multi-Calculator"}
-          weblink={"http://github.com"}
-        />
+
       </div>
     </section>
   );
