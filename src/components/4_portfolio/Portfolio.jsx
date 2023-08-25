@@ -2,13 +2,13 @@ import React from "react";
 import "./portfolio.css";
 import portfolioItems from "./portfolioData";
 
-function ProjectCard({ img, gitlink, weblink, title }) {
+function ProjectCard({ item }) {
   return (
     <article className="portfolio_item">
       <div className="portfolio_item_img">
-        <img src={img} alt="" />
+        <img src={item.img} alt={item.title} />
       </div>
-      <h3>{title}</h3>
+      <h3>{item.title}</h3>
     </article>
   );
 }
@@ -23,10 +23,7 @@ const Portfolio = () => {
           portfolioItems.map((item, index) => (
             <ProjectCard
               key={index}
-              img={item.img}
-              title={item.title}
-              gitlink={item.gitlink}
-              weblink={item.weblink}
+              item={item}
             />
           ))
         }
