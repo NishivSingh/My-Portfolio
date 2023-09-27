@@ -55,7 +55,7 @@ const Contact = () => {
             </div>
             <div className="contact_number">
               <a
-                href="https://api.whatsapp.com/send?phone+919319592937"
+                href="https://api.whatsapp.com/send?phone=9319592937"
                 target="_blank"
               >
                 +91 9319592937
@@ -68,10 +68,10 @@ const Contact = () => {
               <h4>Connect at</h4>
             </div>
             <div className="connect_option_links">
-              <a href="" className="work_links github">
+              <a href="https://github.com/NishivSingh" target='_blank' className="work_links github">
                 <img width="256" height="256" src="https://img.icons8.com/glyph-neue/256/github.png" alt="github" className="connect_option_social_links" />
               </a>
-              <a href="" className="work_links">
+              <a href="https://www.linkedin.com/in/nishiv-singh-a5549120b/" target="_blank" className="work_links">
                 <img width="240" height="240" src="https://img.icons8.com/color/240/linkedin.png" alt="linkedin" className="connect_option_social_links" />
               </a>
             </div>

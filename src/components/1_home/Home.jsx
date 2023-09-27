@@ -13,9 +13,7 @@ const Home = () => {
           <h3>Hello, I'm</h3>
           <h1>Nishiv Singh</h1>
           <p>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Esse autem
-            corrupti, fugit explicabo nam laudantium numquam. Deserunt ullam
-            deleniti delectus?
+            Building bridges between imagination and execution
           </p>
           {/* <h5 className="text-light">FrontEnd Developer</h5> */}
           <Util />
@@ -25,19 +23,19 @@ const Home = () => {
           <div className="profession_box">
             <div className="profession" style={{ "--i": 0 }}>
               <BiCodeAlt className="profession_icon" />
-              <h3>Web Developer</h3>
+              <h3>Frontend Developer</h3>
             </div>
             <div className="profession" style={{ "--i": 1 }}>
               <BiCodeAlt className="profession_icon" />
-              <h3>Web Developer</h3>
+              <h3>Backend Developer</h3>
             </div>
             <div className="profession" style={{ "--i": 2 }}>
               <BiCodeAlt className="profession_icon" />
-              <h3>Web Developer</h3>
+              <h3>Mobile App Developer</h3>
             </div>
             <div className="profession" style={{ "--i": 3 }}>
               <BiCodeAlt className="profession_icon" />
-              <h3>Web Developer</h3>
+              <h3>Data Scientist</h3>
             </div>
 
             <div className="circle"></div>

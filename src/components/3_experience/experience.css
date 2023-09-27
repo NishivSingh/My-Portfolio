@@ -6,13 +6,13 @@
 
 .web_dev {
   display: grid;
-  grid-template-columns: 3fr 2fr;
+  grid-template-columns: 2fr 2fr;
   gap: 2rem;
 }
 
 .non_web_dev {
   display: grid;
-  grid-template-columns: 2fr 3fr;
+  grid-template-columns: 2fr 2fr;
   gap: 2rem;
 }
 
@@ -91,6 +91,27 @@
   .experience_content {
     padding: 1rem;
   }
+
+  .web_dev {
+    grid-template-columns: 1fr;
+  }
+
+  .non_web_dev {
+    grid-template-columns: 1fr;
+  }
+
+  .backend_dev :nth-child(2) {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .app_dev :nth-child(2) {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .images {
+    width: 60px;
+    height: 60px;
+  }
 }
 
 /* Media Queries for small screen*/
@@ -102,5 +123,30 @@
   .skill_card {
     width: 100%;
     padding: 2rem 1rem;
+  }
+
+  .web_dev {
+    grid-template-columns: 1fr;
+  }
+
+  .non_web_dev {
+    grid-template-columns: 1fr;
+  }
+
+  .backend_dev :nth-child(2) {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .app_dev :nth-child(2) {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .images {
+    width: 50px;
+    height: 50px;
+  }
+
+  .experience_details>h4 {
+    text-align: center;
   }
 }

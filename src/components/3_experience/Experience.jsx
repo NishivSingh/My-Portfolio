@@ -29,7 +29,7 @@ const Experience = () => {
         <div className="web_dev">
           <SkillCard
             class_name={"frontend_dev"}
-            title={"Frontend Development"}
+            title={"Web Development"}
             skills={{
               "HTML": [
                 "https://img.icons8.com/color/240/html-5--v1.png",
@@ -44,11 +44,13 @@ const Experience = () => {
               "Typescript": ["https://img.icons8.com/color/240/typescript.png", "typescript"],
               "React Js": ["https://img.icons8.com/plasticine/200/react.png", "react"],
               "Next Js": ["https://cdn.worldvectorlogo.com/logos/nextjs-2.svg", "nextjs"],
+              "Node Js": ["https://img.icons8.com/color/240/nodejs.png", "nodejs"],
+              "MongoDB": ["https://img.icons8.com/color/240/mongodb.png", "mongodb"]
             }}
           />
           <SkillCard
             class_name={"backend_dev"}
-            title={"Backend Development"}
+            title={"Mobile App Development"}
             skills={{
               "Dart": ["https://img.icons8.com/color/240/dart.png", "dart"],
               "Flutter": ["https://img.icons8.com/color/240/flutter.png", "flutter"],
@@ -60,20 +62,23 @@ const Experience = () => {
         <div className="non_web_dev">
           <SkillCard
             class_name={"app_dev"}
-            title={"Mobile App Development"}
+            title={"Machine Learning"}
             skills={{
-              "Dart": ["https://img.icons8.com/color/240/dart.png", "dart"],
-              "Flutter": ["https://img.icons8.com/color/240/flutter.png", "flutter"],
-              "Firebase": ["https://img.icons8.com/color/240/firebase.png", "firebase"],
+              "OpenCV": ["https://img.icons8.com/color/240/opencv.png", "opencv"],
+              "Google Colab": ["https://img.icons8.com/color/240/google-colab.png", "google-colab"],
+              "Jupyter": ["https://img.icons8.com/fluency/240/jupyter.png", "Jupyter"],
+              "Tensor Flow": ["https://img.icons8.com/color/240/tensorflow.png", "tensorflow"],
+              "NumPy": ["https://img.icons8.com/color/240/numpy.png", "numpy"],
+
             }}
           />
           <SkillCard
             class_name={"others"}
             title={"Others"}
             skills={{
-              "C": ["https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg", "C"],
               "C++": ["https://img.icons8.com/fluency/240/c-plus-plus-logo.png", "c++"],
               "Python": ["https://img.icons8.com/color/240/python--v1.png", "python"],
+              "SQL": ["https://img.icons8.com/arcade/64/sql.png", "sql"],
               "Figma": ["https://img.icons8.com/color/480/figma--v1.png", "figma"],
               "Linux": ["https://img.icons8.com/color/240/linux--v1.png", "linux"],
               "Matlab": ["https://img.icons8.com/fluency/240/matlab.png", "matlab"],
