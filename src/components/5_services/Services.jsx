@@ -17,36 +17,31 @@ const Services = () => {
             <li>
               <BiCheck className="service_list_icons" />
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor,
-                fugiat.
+                I create websites that go beyond code to deliver captivating digital experiences.
               </p>
             </li>
             <li>
               <BiCheck className="service_list_icons" />
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor,
-                fugiat.
+                I breathe life into web applications using the MERN stack, crafting standout, dynamic solutions.
               </p>
             </li>
             <li>
               <BiCheck className="service_list_icons" />
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor,
-                fugiat.
+                I infuse artificial intelligence into your apps, adding a touch of brilliance and automation to user experiences.
               </p>
             </li>
             <li>
               <BiCheck className="service_list_icons" />
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor,
-                fugiat.
+                Have a hand-on experience in codebase management, worked with existing code to include new features.
               </p>
             </li>
             <li>
               <BiCheck className="service_list_icons" />
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor,
-                fugiat.
+                Your website will be responsive on all devices, offering delightful experiences across screens.
               </p>
             </li>
           </ul>
@@ -60,36 +55,31 @@ const Services = () => {
             <li>
               <BiCheck className="service_list_icons" />
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor,
-                fugiat.
+                My app development transforms ideas into digital realities, bringing your vision to life on every screen.
               </p>
             </li>
             <li>
               <BiCheck className="service_list_icons" />
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor,
-                fugiat.
+                Seamlessly navigate between iOS and Android with my cross-platform expertise.
               </p>
             </li>
             <li>
               <BiCheck className="service_list_icons" />
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor,
-                fugiat.
+                My mobile apps foster real-time connections, delivering instant messaging to boost engagement.
               </p>
             </li>
             <li>
               <BiCheck className="service_list_icons" />
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor,
-                fugiat.
+                I focus on maximizing user engagement to keep your app's audience actively involved and invested.
               </p>
             </li>
             <li>
               <BiCheck className="service_list_icons" />
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor,
-                fugiat.
+                My apps prioritize trust, implementing secure authentication for user data and interactions.
               </p>
             </li>
           </ul>
