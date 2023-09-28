@@ -5,10 +5,17 @@
 }
 
 .about_me {
+  display: grid;
+  place-items: center;
+}
+
+.about_me_inner {
+  width: 100%;
   border-radius: 2rem;
   background: var(--color-primary);
   display: grid;
   place-items: center;
+  height: 20rem;
 }
 
 .about_me_image {
@@ -17,7 +24,7 @@
 
 .about_cards {
   display: grid;
-  grid-template-columns: repeat(1, 1fr);
+  grid-template-columns: repeat(2, 1fr);
   gap: 1.5rem;
 }
 
