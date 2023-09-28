@@ -10,6 +10,10 @@
   border-radius: 2rem;
   border: 1px solid transparent;
   transition: var(--transition);
+  text-align: center;
+  /* Center the text */
+  position: relative;
+  /* Add relative positioning to the container */
 }
 
 .portfolio_item:hover {
@@ -18,10 +22,77 @@
   cursor: pointer;
 }
 
-.portfolio_item_img {
+.portfolio_item_img_container {
   border-radius: 1.5rem;
   overflow: hidden;
-  /* width: 22vw; */
+  position: relative;
+}
+
+.portfolio_item_img {
+  width: 100%;
+  height: auto;
+}
+
+/* Add an overlay element */
+.portfolio_item_img_overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  height: 100%;
+  width: 100%;
+  /* Semi-transparent black background */
+  opacity: 0;
+  /* Initially hidden */
+  transition: opacity 0.3s ease;
+  /* Add a smooth transition for the overlay */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Show the overlay on hover */
+.portfolio_item_img_container:hover .portfolio_item_img_overlay {
+  opacity: 1;
+}
+
+.portfolio_icons {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+  transition: var(--transition);
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.portfolio_icons a {
+  background-color: rgba(0, 0, 0, 0.7);
+  border-radius: 50%;
+  transition: var(--transition);
+}
+
+.portfolio_icons a:hover {
+  scale: 1.1;
+}
+
+.portfolio_icons img {
+  filter: invert(100%);
+  padding: 7px;
+}
+
+
+.portfolio_item_img_container:hover .portfolio_icons {
+  opacity: 1;
+}
+
+.portfolio_icon {
+  width: 2.5rem;
+  height: 2.5rem;
 }
 
 .portfolio_item h3 {
@@ -29,21 +100,18 @@
   margin: 1rem;
 }
 
-.portfolio_item_content {
-  display: flex;
-  gap: 1rem;
-  margin-bottom: 1rem;
-  justify-content: center;
+.portfolio_description {
+  margin: 1rem;
 }
 
-/* Media Queries for medium screen*/
+/* Media Queries for medium screen */
 @media screen and (max-width: 1024px) {
   .portfolio_container {
     grid-template-columns: 1fr 1fr;
   }
 }
 
-/* Media Queries for small screen*/
+/* Media Queries for small screen */
 @media screen and (max-width: 600px) {
   .portfolio_container {
     grid-template-columns: 1fr;

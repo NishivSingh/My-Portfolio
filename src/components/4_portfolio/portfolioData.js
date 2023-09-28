@@ -11,6 +11,8 @@ const portfolioItems = [
     title: "ShopSphere",
     gitlink: "https://github.com/NishivSingh/restaurant-website",
     weblink: "http://github.com",
+    description:
+      "Explore the e-commerce website with an intuitive interface, efficient cart management, and secure Stripe payments.",
   },
 
   {
@@ -18,6 +20,8 @@ const portfolioItems = [
     title: "AI-Image-Generator",
     gitlink: "https://github.com/NishivSingh/AI-Image-Generator",
     weblink: "http://github.com",
+    description:
+      "A specialized website that utilizes OpenAI's capabilities to generate customized images based on user inputs",
   },
 
   {
@@ -25,6 +29,8 @@ const portfolioItems = [
     title: "Chit-Chat",
     gitlink: "https://github.com/NishivSingh/chat-app",
     weblink: "http://github.com",
+    description:
+      "A cross-platform mobile app for real-time messaging and user connections with enhanced security.",
   },
 
   {
@@ -32,6 +38,8 @@ const portfolioItems = [
     title: "Youtube Bookmarker",
     gitlink: "https://github.com/NishivSingh/Multi-Calculator",
     weblink: "http://github.com",
+    description:
+      "A Chrome extension for easy video timestamp bookmarking and management on YouTube.",
   },
 
   {
@@ -39,13 +47,17 @@ const portfolioItems = [
     title: "Sorting Visualizer",
     gitlink: "https://github.com/NishivSingh/Sorting-Visualizer",
     weblink: "http://github.com",
+    description:
+      "Discover this webpage, designed for easy learning and interactive exploration of sorting algorithms",
   },
 
   {
     img: movie_info,
-    title: "Movies Info Website",
+    title: "Movies Info",
     gitlink: "https://github.com/NishivSingh/Movie-Info-App",
     weblink: "http://github.com",
+    description:
+      "The webpage features movie cards displaying synopses and ratings, with a convenient search feature",
   },
 ];
 
