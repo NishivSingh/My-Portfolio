@@ -9,8 +9,8 @@ const portfolioItems = [
   {
     img: shop_sphere,
     title: "ShopSphere",
-    gitlink: "https://github.com/NishivSingh/restaurant-website",
-    weblink: "http://github.com",
+    gitlink: "https://github.com/NishivSingh/ShopShere",
+    weblink: "https://shop-sphere.vercel.app/",
     description:
       "Explore the e-commerce website with an intuitive interface, efficient cart management, and secure Stripe payments.",
   },
@@ -19,7 +19,7 @@ const portfolioItems = [
     img: ai_image_generator,
     title: "AI-Image-Generator",
     gitlink: "https://github.com/NishivSingh/AI-Image-Generator",
-    weblink: "http://github.com",
+    weblink: "https://ai-image-generator-dalle.netlify.app/",
     description:
       "A specialized website that utilizes OpenAI's capabilities to generate customized images based on user inputs",
   },
@@ -28,7 +28,7 @@ const portfolioItems = [
     img: chat_app,
     title: "Chit-Chat",
     gitlink: "https://github.com/NishivSingh/chat-app",
-    weblink: "http://github.com",
+    weblink: "https://github.com/NishivSingh/chat-app",
     description:
       "A cross-platform mobile app for real-time messaging and user connections with enhanced security.",
   },
@@ -36,8 +36,8 @@ const portfolioItems = [
   {
     img: youtube_bookmarker,
     title: "Youtube Bookmarker",
-    gitlink: "https://github.com/NishivSingh/Multi-Calculator",
-    weblink: "http://github.com",
+    gitlink: "https://github.com/NishivSingh/youtube-bookmarker",
+    weblink: "https://github.com/NishivSingh/youtube-bookmarker",
     description:
       "A Chrome extension for easy video timestamp bookmarking and management on YouTube.",
   },
@@ -46,7 +46,7 @@ const portfolioItems = [
     img: sorting_vis,
     title: "Sorting Visualizer",
     gitlink: "https://github.com/NishivSingh/Sorting-Visualizer",
-    weblink: "http://github.com",
+    weblink: "https://sorting-visulizer.netlify.app/",
     description:
       "Discover this webpage, designed for easy learning and interactive exploration of sorting algorithms",
   },
@@ -55,7 +55,7 @@ const portfolioItems = [
     img: movie_info,
     title: "Movies Info",
     gitlink: "https://github.com/NishivSingh/Movie-Info-App",
-    weblink: "http://github.com",
+    weblink: "https://movie-tmdo.netlify.app/",
     description:
       "The webpage features movie cards displaying synopses and ratings, with a convenient search feature",
   },
