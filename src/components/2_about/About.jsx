@@ -34,11 +34,10 @@ const About = () => {
           <div className="about_info">
             <p>
               <p>Hello, I'm Nishiv Singh, a passionate and enthusiastic individual who thrives on learning new things and embracing challenges. I believe in the power of teamwork and possess the ability to both collaborate effectively and lead a team towards success.</p>
+
               <p>I am currently pursuing my B.Tech in Materials Engineering at the prestigious Indian Institute of Technology Jodhpur. My dedication and hard work have earned me the top rank in my department, reflecting my commitment to excellence.</p>
-              <p>I worked as a software developer, leading a team to create a cross-platform mobile app and improve a recruiting website. This taught me efficient database management, meeting deadlines, and adaptability.
-                During my research internship at IIT Madras, I independently developed a user-friendly data analysis website, implementing machine learning techniques for insightful results.</p>
-              <p>Beyond my academic and professional pursuits, I enjoy playing chess and actively contribute as a core member of my college's chess society. I'm also an avid consumer of movies, web series, and storybooks.</p>
-              <p>My ability to thrive under pressure, coupled with my top-ranking academic performance, reflects my dedication and work ethic. I bring a wealth of experience in both established and emerging technologies, making me adaptable to the evolving needs of companies.</p>
+              <p>In the professional arena, I've worked in software development teams,at Willings, Inc., a Japan-based company, where I played a pivotal role in creating cross-platform mobile apps and enhancing recruitment websites. Additionally, my research internship at IIT Madras allowed me to independently develop a user-friendly data analysis website, employing machine learning techniques for insightful results.</p>
+              <p>Beyond my professional pursuits, I actively contribute as a core member of my college's chess society and have a deep passion for movies, web series, and books. My strong work ethic, coupled with my tech expertise, equips me to adapt to evolving challenges in the field.</p>
             </p>
           </div>
         </div>
